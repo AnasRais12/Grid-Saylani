@@ -21,7 +21,7 @@ height: 300px;
  gap: 10px;
  display: grid;
  grid-template-areas: "box-1 box-2 box-3";
- border: 4px solid black;}
+ border: 4px solid white;}
 
 .inner-block {
 background: #fff;
@@ -31,20 +31,17 @@ border: 2px solid black;
 .grid-1{
 grid-template-areas: "box-1 box-2 box-3";
 }
-.first-1{
- grid-area: box-1;border: 4px solid #bbb4bc}
-.first-2{
-grid-area: box-2;border: 4px solid #bbb4bc}
-.first-3{
- grid-area: box-3;border: 4px solid #bbb4bc} 
+.first-1{ grid-area: box-1;border: 4px solid #bbb4bc}
+.first-2{grid-area: box-2;border: 4px solid #bbb4bc}
+.first-3{grid-area: box-3;border: 4px solid #bbb4bc} 
 
 .grid-2{
 width: 30%;
 height: 300px;
 padding: 10px;
-border: 4px solid black;
+border: 4px solid white;
 display: grid;
-background-color: gray;
+background-color: #bbb4bc;
 gap: 10px;
 grid-template-areas: "box2-1 box2-2"
                      "box2-1 box2-3" ;
@@ -57,9 +54,9 @@ grid-template-areas: "box2-1 box2-2"
     width: 30%;
      height: 300px;
     padding: 10px;
-    border: 4px solid black;
+    border: 4px solid white;
     display: grid;
-    background-color: gray;;
+    background-color: #bbb4bc;;
     gap: 10px;
     grid-template-areas: "third-1 third-2 third-3"
                          "third-4 third-5 third-6" ;}
@@ -75,9 +72,9 @@ grid-template-areas: "box2-1 box2-2"
 width: 30%;
  height: 300px;
 padding: 10px;
-border: 4px solid black;
+border: 4px solid white;
 display: grid;
-background-color: gray;
+background-color:#bbb4bc;;
 grid-template-areas: "fourth-1 fourth-2 fourth-3"
                      "fourth-4 fourth-2 fourth-6"
                       "fourth-4 fourth-2 fourth-6"
@@ -95,9 +92,9 @@ grid-template-areas: "fourth-1 fourth-2 fourth-3"
 width: 30%;
 height: 300px;
 padding: 10px;
-border: 4px solid black;
+border: 4px solid white;
 display: grid;
-background-color: gray;;
+background-color: #bbb4bc;
 grid-template-areas: "fifth-1 fifth-1 fifth-1 fifth-2 fifth-2 fifth-2 "
                          "fifth-3 fifth-3 fifth-4  fifth-4 fifth-5 fifth-5";}
 .fifth-1{grid-area: fifth-1;border: 4px solid #bbb4bc } 
@@ -110,9 +107,9 @@ grid-template-areas: "fifth-1 fifth-1 fifth-1 fifth-2 fifth-2 fifth-2 "
  width: 30%;
 height: 300px;
 padding: 10px;
-border: 4px solid black;
+border: 4px solid white;
 display: grid;
-background-color: gray;
+background-color: #bbb4bc;
 grid-template-areas: "six-1 six-1  six-2"
                      "six-1 six-1 six-3"
                      "six-1 six-1 six-3"
@@ -128,9 +125,9 @@ grid-template-areas: "six-1 six-1  six-2"
 width: 30%;
 height: 300px;
 padding: 10px;
-border: 4px solid black;
+border: 4px solid white
 display: grid;
-background-color: gray;
+background-color: #bbb4bc;
 grid-template-areas: "seventh-1 seventh-1 seventh-2 seventh-2"
                      "seventh-1 seventh-1 seventh-2 seventh-2"
                      "seventh-1 seventh-1 seventh-2 seventh-2"
@@ -146,9 +143,9 @@ grid-template-areas: "seventh-1 seventh-1 seventh-2 seventh-2"
 width: 30%;
 height: 300px;
 padding: 10px;
-border: 4px solid black;
+border: 4px solid white;
 display: grid;
-background-color: gray;
+background-color: #bbb4bc;
 grid-template-areas: "eight-1 eight-1 eight-2 eight-2 eight-3"
                      "eight-1 eight-1 eight-2 eight-2 eight-4"
                      "eight-1 eight-1 eight-5 eight-6 eight-7"
@@ -165,9 +162,9 @@ grid-template-areas: "eight-1 eight-1 eight-2 eight-2 eight-3"
 width: 30%;
 height: 300px;
 padding: 10px;
-border: 4px solid black;
+border: 4px solid white;
 display: grid;
-background-color: gray;
+background-color: #bbb4bc;
 grid-template-areas: "ten-1 ten-2 ten-3 ten-4"
                      "ten-5 ten-5 ten-6 ten-6"
                      "ten-7 ten-8 ten-9 ten-10"
