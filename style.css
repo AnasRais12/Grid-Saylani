@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+/* width: 80%; */
+display: flex;
+gap: 20px;
+padding: 50px;
+flex-wrap: wrap;
+background: rgb(121,112,237);
+background: linear-gradient(180deg, rgba(121,112,237,1) 50%, rgba(133,100,239,1) 75%, rgba(159,78,241,1) 98%);
+}
+
+.grid {
+background-color:gray;
+padding: 10px;
+width: 30%;
+height: 300px;
+ gap: 10px;
+ display: grid;
+ grid-template-areas: "box-1 box-2 box-3";
+ border: 4px solid black;}
+
+.inner-block {
+background: #fff;
+border: 2px solid black;
+}
+
+.grid-1{
+grid-template-areas: "box-1 box-2 box-3";
+}
+.first-1{
+ grid-area: box-1;border: 4px solid #bbb4bc}
+.first-2{
+grid-area: box-2;border: 4px solid #bbb4bc}
+.first-3{
+ grid-area: box-3;border: 4px solid #bbb4bc} 
+
+.grid-2{
+width: 30%;
+height: 300px;
+padding: 10px;
+border: 4px solid black;
+display: grid;
+background-color: gray;
+gap: 10px;
+grid-template-areas: "box2-1 box2-2"
+                     "box2-1 box2-3" ;
+}                     
+.second-1{grid-area: box2-1;border: 4px solid #bbb4bc}
+.second-2{grid-area: box2-2;border: 4px solid #bbb4bc}
+.second-3{grid-area: box2-3;border: 4px solid #bbb4bc} 
+
+.grid-3{
+    width: 30%;
+     height: 300px;
+    padding: 10px;
+    border: 4px solid black;
+    display: grid;
+    background-color: gray;;
+    gap: 10px;
+    grid-template-areas: "third-1 third-2 third-3"
+                         "third-4 third-5 third-6" ;}
+        
+.third-1{grid-area: third-1;border: 4px solid #bbb4bc} 
+.third-2{grid-area: third-2;border: 4px solid #bbb4bc} 
+.third-3{grid-area: third-3;border: 4px solid #bbb4bc} 
+.third-4{grid-area: third-4;border: 4px solid #bbb4bc} 
+.third-5{grid-area: third-5;border: 4px solid #bbb4bc} 
+.third-6{grid-area: third-6;border: 4px solid #bbb4bc} 
+    
+.grid-4{
+width: 30%;
+ height: 300px;
+padding: 10px;
+border: 4px solid black;
+display: grid;
+background-color: gray;
+grid-template-areas: "fourth-1 fourth-2 fourth-3"
+                     "fourth-4 fourth-2 fourth-6"
+                      "fourth-4 fourth-2 fourth-6"
+                     "fourth-4 fourth-5 fourth-6" ;}
+    
+.fourth-1{grid-area: fourth-1;border: 4px solid #bbb4bc } 
+.fourth-2{grid-area: fourth-2;border: 4px solid #bbb4bc} 
+.fourth-3{grid-area: fourth-3;border: 4px solid #bbb4bc} 
+.fourth-4{grid-area: fourth-4;border: 4px solid #bbb4bc} 
+.fourth-5{grid-area: fourth-5;border: 4px solid #bbb4bc} 
+.fourth-6{grid-area: fourth-6;border: 4px solid #bbb4bc} 
+
+  
+.grid-5{
+width: 30%;
+height: 300px;
+padding: 10px;
+border: 4px solid black;
+display: grid;
+background-color: gray;;
+grid-template-areas: "fifth-1 fifth-1 fifth-1 fifth-2 fifth-2 fifth-2 "
+                         "fifth-3 fifth-3 fifth-4  fifth-4 fifth-5 fifth-5";}
+.fifth-1{grid-area: fifth-1;border: 4px solid #bbb4bc } 
+.fifth-2{grid-area: fifth-2;border: 4px solid #bbb4bc} 
+.fifth-3{grid-area: fifth-3;border: 4px solid #bbb4bc} 
+.fifth-4{grid-area: fifth-4;border: 4px solid #bbb4bc} 
+.fifth-5{grid-area: fifth-5;border: 4px solid #bbb4bc} 
+ 
+.grid-6{
+ width: 30%;
+height: 300px;
+padding: 10px;
+border: 4px solid black;
+display: grid;
+background-color: gray;
+grid-template-areas: "six-1 six-1  six-2"
+                     "six-1 six-1 six-3"
+                     "six-1 six-1 six-3"
+                      "six-4 six-5 six-6" ;}
+.six-1{grid-area: six-1;border: 4px solid #bbb4bc } 
+.six-2{grid-area: six-2;border: 4px solid #bbb4bc} 
+.six-3{grid-area: six-3;border: 4px solid #bbb4bc} 
+.six-4{grid-area: six-4;border: 4px solid #bbb4bc} 
+.six-5{grid-area: six-5;border: 4px solid #bbb4bc}
+.six-6{grid-area: six-6;border: 4px solid #bbb4bc}
+
+.grid-7{
+width: 30%;
+height: 300px;
+padding: 10px;
+border: 4px solid black;
+display: grid;
+background-color: gray;
+grid-template-areas: "seventh-1 seventh-1 seventh-2 seventh-2"
+                     "seventh-1 seventh-1 seventh-2 seventh-2"
+                     "seventh-1 seventh-1 seventh-2 seventh-2"
+                     "seventh-1 seventh-1 seventh-3 seventh-5"
+                     "seventh-1 seventh-1 seventh-4 seventh-5";}
+.seventh-1{grid-area: seventh-1;border: 4px solid #bbb4bc } 
+.seventh-2{grid-area: seventh-2;border: 4px solid #bbb4bc} 
+.seventh-3{grid-area: seventh-3;border: 4px solid #bbb4bc} 
+.seventh-4{grid-area: seventh-4;border: 4px solid #bbb4bc} 
+.seventh-5{grid-area: seventh-5;border: 4px solid #bbb4bc}
+
+.grid-8{
+width: 30%;
+height: 300px;
+padding: 10px;
+border: 4px solid black;
+display: grid;
+background-color: gray;
+grid-template-areas: "eight-1 eight-1 eight-2 eight-2 eight-3"
+                     "eight-1 eight-1 eight-2 eight-2 eight-4"
+                     "eight-1 eight-1 eight-5 eight-6 eight-7"
+                     ;}
+.eight-1{grid-area: eight-1;border: 4px solid #bbb4bc } 
+.eight-2{grid-area: eight-2;border: 4px solid #bbb4bc} 
+.eight-3{grid-area: eight-3;border: 4px solid #bbb4bc} 
+.eight-4{grid-area: eight-4;border: 4px solid #bbb4bc} 
+.eight-5{grid-area: eight-5;border: 4px solid #bbb4bc}
+.eight-6{grid-area: eight-6;border: 4px solid #bbb4bc}
+.eight-7{grid-area: eight-7;border: 4px solid #bbb4bc}
+
+.grid-9{
+width: 30%;
+height: 300px;
+padding: 10px;
+border: 4px solid black;
+display: grid;
+background-color: gray;
+grid-template-areas: "ten-1 ten-2 ten-3 ten-4"
+                     "ten-5 ten-5 ten-6 ten-6"
+                     "ten-7 ten-8 ten-9 ten-10"
+                         ;}
+.ten-1{grid-area: ten-1;border: 4px solid #bbb4bc; } 
+.ten-2{grid-area: ten-2; border: 4px solid #bbb4bc} 
+.ten-3{grid-area: ten-3; border: 4px solid #bbb4bc} 
+.ten-4{grid-area: ten-4; border: 4px solid #bbb4bc} 
+.ten-5{grid-area: ten-5; border: 4px solid #bbb4bc}
+.ten-6{grid-area: ten-6;border: 4px solid #bbb4bc}
+.ten-7{grid-area: ten-7;border: 4px solid #bbb4bc}
+.ten-8{grid-area: ten-8;border: 4px solid #bbb4bc}
+.ten-9{grid-area: ten-9;border: 4px solid #bbb4bc}
+.ten-10{grid-area:ten-10;border: 4px solid #bbb4bc}
